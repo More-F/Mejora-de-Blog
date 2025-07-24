@@ -1,14 +1,14 @@
 :root {
-    --fondo: #FFF7ED;
-    --primario: #641111;
-    --secundario: #0d5c13;
+    --fondo: #F2E6D8;
+    --primario: #F2B366;
+    --secundario: #D96704;
     --texto: #333333;
     --acento: #00065e;
 }
 
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Playfair Display', serif;
     background-color: var(--fondo);
     color: var(--texto);
 }
