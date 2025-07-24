@@ -1,0 +1,112 @@
+
+/* Colores base */
+:root {
+  --dorado: #BFAF60;
+  --naranja-claro: #F2B366;
+  --naranja-quemado: #D96704;
+  --beige-claro: #F2E6D8;
+  --texto-oscuro: #3b3b3b;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: var(--beige-claro);
+  color: var(--texto-oscuro);
+  line-height: 1.6;
+  padding: 0;
+}
+
+
+.hero {
+  background-color: var(--naranja-claro);
+  text-align: center;
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+
+.seccion,
+.proceso {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.seccion h2,
+.proceso h2 {
+  color: var(--dorado);
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.seccion p,
+.proceso p {
+  font-size: 1.1em;
+}
+
+/* 3 section */
+.rescatamos,
+.restauramos,
+.vendemos {
+  background-color: #fff;
+  border-left: 8px solid var(--naranja-quemado);
+  margin: 30px auto;
+  padding: 25px;
+  max-width: 900px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Imagenes */
+.img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* Títulos de los 3 section */
+.rescatamos h3,
+.restauramos h3,
+.vendemos h3 {
+  font-size: 1.5em;
+  color: var(--naranja-quemado);
+  margin-bottom: 8px;
+}
+
+/* Párrafos de los 3 section */
+.rescatamos p,
+.restauramos p,
+.vendemos p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*guón de cada section*/
+.separador {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: var(--dorado);
+  margin: 10px auto;
+  border-radius: 2px;
+}
