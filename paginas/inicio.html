@@ -18,15 +18,31 @@
  
 <body>
  
-    <header class="header">
-        <nav class="nav">
-            <a href="#" class="nombre">Ecos del ayer</a>
-            <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="sobreNosotros.html" class="nav-menu-link">Sobre nosotros</a></li>
-                <li class="nav-menu-item"><a href="contacto.html" class="nav-menu-link">Contáctanos</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="header navbar navbar-expand-lg fixed-top glass-navbar">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="/IMG/Ecos-removebg-preview-removebg-preview.png" alt="Logo Ecos del ayer" class="logo-ecos me-2">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+ 
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto nav-menu">
+        <li class="nav-item nav-menu-item">
+          <a class="nav-link nav-menu-link active" href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item nav-menu-item">
+          <a class="nav-link nav-menu-link" href="sobreNosotros.html">Sobre nosotros</a>
+        </li>
+        <li class="nav-item nav-menu-item">
+          <a class="nav-link nav-menu-link" href="contacto.html">Contáctanos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
  
     <!-- Contenido principal -->
     <main class="container py-5">
@@ -50,7 +66,7 @@
                 </p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/IMG/inicio.jpg" alt="Equipo Ecos del Ayer" class="img-fluid img-animada shadow">
+                <img src="/IMG/photo-1467991521834-fb8e202c7074.avif" alt="Equipo Ecos del Ayer" class="img-fluid img-animada shadow">
             </div>
         </section>
  
@@ -62,7 +78,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card proceso-card h-100">
-                        <img src="/estilos/rescatamos.avif" class="card-img-top" alt="Rescatamos">
+                        <img src="/IMG/photo-1501829385782-9841539fa6bf.avif" class="card-img-top" alt="Rescatamos">
                         <div class="card-body">
                             <h5 class="card-title text-center">Gestión de recolección</h5>
                             <p class="card-text">En Ecos del Ayer, buscamos piezas olvidadas por el tiempo. Objetos antiguos que alguna vez formaron parte de un hogar, una historia o un recuerdo. Rescatamos lo que otros dejaron
@@ -72,7 +88,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card proceso-card h-100">
-                        <img src="/estilos/restau.jpg" class="card-img-top" alt="Restauramos">
+                        <img src="/IMG/telefonovintage.avif" class="card-img-top" alt="Restauramos">
                         <div class="card-body">
                             <h5 class="card-title text-center">Restauración</h5>
                             <p class="card-text">Cada artículo pasa por nuestras manos con cuidado y dedicación. En Ecos del Ayer, restauramos conservando el alma de cada pieza, resaltando su carácter único
@@ -82,7 +98,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card proceso-card h-100">
-                        <img src="/estilos/vender.webp" class="card-img-top" alt="Vendemos">
+                        <img src="/IMG/telefonovintage.avif" class="card-img-top" alt="Vendemos">
                         <div class="card-body">
                             <h5 class="card-title text-center">Ventas</h5>
                             <p class="card-text">Queremos que cada objeto encuentre un nuevo dueño que lo valore. Vendemos piezas con historia, seleccionadas con amor, para quienes buscan
@@ -131,6 +147,7 @@
             </div>
         </div>
     </footer>
+    <script src="/JS/app.js"></script>
  
 </body>
  
