@@ -54,7 +54,7 @@
     --primario: #F2B366;
     --secundario: #D96704;
     --texto: #333333;
-    --acento: #00065e;
+    --acento: #000fdb;
 }
 
 body {
@@ -217,4 +217,33 @@ footer {
 .social-icon:hover {
     transform: scale(1.2);
     color: #3b2b1c;
+}
+
+
+  /* Efectos suaves */
+.form-control,
+.btn {
+    transition: all 0.3s ease;
+}
+
+ /* Enfocar inputs */
+.form-control:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 10px rgba(111, 66, 193, 0.3);
+}
+
+  /* Hover botón */
+.btn-primary:hover {
+    background-color: #502a99;
+    transform: scale(1.03);
+}
+
+  /* Sombra sutil */
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
