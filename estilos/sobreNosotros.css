@@ -1,6 +1,6 @@
-.header{
-    background: linear-gradient(to right, #D9AB73, #D9AB73);
-    border-bottom: 3px solid #731919;
+.header {
+    background: linear-gradient(to right, #bfae60, #d1c178);
+    border-bottom: 3px solid #8c7e3f;
     height: 80px;
     position: fixed;
     width: 100%;
@@ -9,6 +9,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
     z-index: 1000;
 }
+
 .nav {
     display: flex; 
     justify-content: space-between;
@@ -44,7 +45,7 @@
 }
 
 .nav-menu-link:hover {
-    background-color: #731919;
+    background-color: #9a8a3e;
     transition: 0.3s;
     color: black;
 }
@@ -54,19 +55,29 @@ body {
   background-color: #F2E6D8;
   color: #333;
 }
+
 header {
-  background-color:#A67A44 ;
+  background-color: #BFAF60;
   color: white;
   padding: 20px;
   text-align: center;
 }
+
 header h1 {
   margin: 0;
   font-size: 2.5rem;
-  color: #731919;
 }
 
-/*Sobre Nosotros*/
+p, h1, h2, h3, h4, h5, h6, span, li, a {
+    font-family: 'Exo 2', sans-serif;
+  }
+
+.card-hover:hover {
+    transform: scale(1.03); /* Agranda un poco la card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Añade sombra */
+    cursor: pointer;
+  }
 .contenedor_nosotros {
   max-width: 1200px;
   margin: 50px auto;
@@ -75,22 +86,17 @@ header h1 {
   flex-direction: row;
   gap: 40px;
   background-color: #fff;
-  border-left: 10px solid #A67A44;
+  border-left: 10px solid #D96704;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-.card-hover:hover {
-    transform: scale(1.03); 
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); 
-    cursor: pointer;
-  }
+
 .texto_nosotros {
   flex: 1 1 50%;
 }
 
 .texto_nosotros h2 {
-  color: #A67A44;
+  color: #D96704;
   margin-bottom: 10px;
 }
 
@@ -111,13 +117,11 @@ header h1 {
   width: 100%;
   max-width: 400px;
   border-radius: 10px;
-  border: 4px solid #731919;
+  border: 4px solid #F2B366;
   object-fit: cover;
 }
-
-/*Footer*/
 .footer {
-    background: linear-gradient(to right, #D97D48, #D97D48);
+    background: linear-gradient(to right, #d1b784, #c7a864);
     padding: 40px 0;
     color: #5b4324;
 }
