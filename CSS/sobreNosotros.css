@@ -6,16 +6,47 @@
     width: 100%;
     top: 0;
     left: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     z-index: 1000;
 }
-
-
+ 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 40px;
+}
+ 
 .nombre{
     font-family: 'Playfair Display', serif;
     font-size: 32px;
     font-weight: bold;
     text-decoration: none;
+    color: black;
+}
+ 
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+ 
+.nav-menu-item {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+ 
+.nav-menu-link {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+ 
+.nav-menu-link:hover {
+    background-color: #9a8a3e;
+    transition: 0.3s;
     color: black;
 }
 
@@ -25,21 +56,10 @@ body {
   background-color: #F2E6D8;
   color: #333;
 }
-
-header {
-  background-color: #BFAF60;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
+s
 
 p, h1, h2, h3, h4, h5, h6, span, li, a {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
   }
 
 .card-hover:hover {
